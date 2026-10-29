@@ -1,0 +1,125 @@
+{
+  "n_parts": 48645,
+  "n_families": 22315,
+  "all_parts": {
+    "cost_plus": {
+      "median_abs_pct_error": 0.2517379836596192,
+      "within_10pct": 0.21001130640353582,
+      "within_20pct": 0.4055915304758968,
+      "n": 48645
+    },
+    "ridge": {
+      "median_abs_pct_error": 0.21168287473258007,
+      "within_10pct": 0.2527083975742625,
+      "within_20pct": 0.4765957446808511,
+      "n": 48645
+    },
+    "lightgbm": {
+      "median_abs_pct_error": 0.18165103453511344,
+      "within_10pct": 0.2953643745503135,
+      "within_20pct": 0.5399116044814473,
+      "n": 48645
+    }
+  },
+  "competitor_vs_other_competitors": {
+    "median_abs_pct_error": 0.14027394560504525,
+    "within_10pct": 0.392444240106754,
+    "within_20pct": 0.6240061899368672,
+    "n": 89177
+  },
+  "parts_with_2plus_competitors": {
+    "cost_plus": {
+      "median_abs_pct_error": 0.24464029336624515,
+      "within_10pct": 0.21425867507886434,
+      "within_20pct": 0.4162776025236593,
+      "n": 39625
+    },
+    "ridge": {
+      "median_abs_pct_error": 0.20231467332780328,
+      "within_10pct": 0.26341955835962144,
+      "within_20pct": 0.4951671924290221,
+      "n": 39625
+    },
+    "lightgbm": {
+      "median_abs_pct_error": 0.17168895183849608,
+      "within_10pct": 0.3106372239747634,
+      "within_20pct": 0.5630283911671924,
+      "n": 39625
+    }
+  },
+  "review_threshold": 0.25,
+  "by_category": [
+    {
+      "category": "Bumper",
+      "parts": 19738,
+      "median_abs_pct_error": 0.18495234736040217,
+      "within_10pct": 0.2921268618907691
+    },
+    {
+      "category": "Lamp",
+      "parts": 7931,
+      "median_abs_pct_error": 0.16044953740191736,
+      "within_10pct": 0.32681881225570547
+    },
+    {
+      "category": "Fender",
+      "parts": 6795,
+      "median_abs_pct_error": 0.17095405285487542,
+      "within_10pct": 0.3140544518027962
+    },
+    {
+      "category": "Grille",
+      "parts": 3447,
+      "median_abs_pct_error": 0.17410027418805274,
+      "within_10pct": 0.30432259936176387
+    },
+    {
+      "category": "Mirror",
+      "parts": 2510,
+      "median_abs_pct_error": 0.295901590791195,
+      "within_10pct": 0.17768924302788844
+    },
+    {
+      "category": "Cooling",
+      "parts": 2074,
+      "median_abs_pct_error": 0.15994801441078166,
+      "within_10pct": 0.32979749276759884
+    },
+    {
+      "category": "Hood",
+      "parts": 2002,
+      "median_abs_pct_error": 0.16915132925825527,
+      "within_10pct": 0.3181818181818182
+    },
+    {
+      "category": "Radiator support",
+      "parts": 1666,
+      "median_abs_pct_error": 0.18461567228410813,
+      "within_10pct": 0.2995198079231693
+    },
+    {
+      "category": "Engine",
+      "parts": 985,
+      "median_abs_pct_error": 0.20434043556760562,
+      "within_10pct": 0.2548223350253807
+    },
+    {
+      "category": "Header panel",
+      "parts": 438,
+      "median_abs_pct_error": 0.22305957836507168,
+      "within_10pct": 0.23515981735159816
+    },
+    {
+      "category": "Handle",
+      "parts": 233,
+      "median_abs_pct_error": 0.3930800061980533,
+      "within_10pct": 0.13733905579399142
+    },
+    {
+      "category": "Windshield",
+      "parts": 211,
+      "median_abs_pct_error": 0.17086398042042372,
+      "within_10pct": 0.3127962085308057
+    }
+  ]
+}

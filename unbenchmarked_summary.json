@@ -1,0 +1,28 @@
+{
+  "parts_without_competitor_price": 8707,
+  "auto_priced": 7835,
+  "sent_to_review": 872,
+  "review_categories": [
+    "Handle",
+    "Mirror"
+  ],
+  "small_categories_reviewed": [
+    "0",
+    "Door",
+    "Fuel",
+    "Misc Part",
+    "Misc Parts",
+    "Panel",
+    "Pickup Box",
+    "Regulator",
+    "Suspension",
+    "Tailgate"
+  ],
+  "margin_floor_applied": 1112,
+  "current_list_vs_market_estimate": {
+    "median_pct": 0.037030641857583535,
+    "share_more_than_20pct_above": 0.32086614173228345,
+    "share_more_than_20pct_below": 0.18561834182491893,
+    "share_within_20pct": 0.49351551644279756
+  }
+}
